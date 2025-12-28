@@ -50,6 +50,8 @@ public class GraphicManager : Singleton<GraphicManager>
 
         InitGraphicSetting();
     }
+
+
     #region Toggle Method
     private bool ToggleIntSwitch(int isOn)
     {

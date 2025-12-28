@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,6 +6,7 @@ public class GameManager : Singleton<GameManager>
 {
     private MainMenuHandler MenuHandler;
     private GameSettingHandler gameSettingHandler;
+
 
     // InGame true 면 MainMenuHandler에서 Start Disabled 하기
     public bool InGame = false;
@@ -16,16 +18,19 @@ public class GameManager : Singleton<GameManager>
         gameSettingHandler = GetComponent<GameSettingHandler>();
         Application.targetFrameRate = 60;
 
-        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
+    private void Start()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
 
     public void StartGame()
     {
         // In main menu
         if (!InGame)
         {
-            MenuHandler.Loading();
+            MenuHandler.Loading("StartMovieScene");
             InGame = true;
         }
     }
@@ -57,7 +62,6 @@ public class GameManager : Singleton<GameManager>
         // 예: 그래픽 설정 재적용
         GraphicManager.Instance.InitGraphicSetting();
 
-        // 예: UI 초기화
-        // UIManager.Instance.ResetUI();
     }
+
 }

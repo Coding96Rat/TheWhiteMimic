@@ -97,9 +97,9 @@ public class MainMenuHandler : MonoBehaviour
     }
 
 
-    public void Loading()
+    public void Loading(string sceneName)
     {
-        StartCoroutine(LoadSceneAsyncRoutine("TestScene"));
+        StartCoroutine(LoadSceneAsyncRoutine(sceneName));
     }
 
     private IEnumerator LoadSceneAsyncRoutine(string sceneName)
