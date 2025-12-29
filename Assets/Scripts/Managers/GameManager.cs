@@ -64,4 +64,10 @@ public class GameManager : Singleton<GameManager>
 
     }
 
+
+    // 이건 AudioManager나 DialogueManage나 Scene이 뭐냐에 따라서 플레이하는게 달라지게 끔 하기 위해 필요한 메서드
+    public string GetCurrentSceneName()
+    {
+        return SceneManager.GetActiveScene().name;
+    }
 }

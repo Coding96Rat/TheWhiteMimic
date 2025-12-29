@@ -5,12 +5,17 @@ public class DialogueManager : Singleton<DialogueManager>
     [SerializeField]
     private GameObject DialougeFrame;
     private GameObject currentDialogueFrame;
-
+    private DialogueSystem dialogueSystem;
 
     public override void Awake()
     {
         base.Awake();
         currentDialogueFrame = Instantiate(DialougeFrame, this.transform);
+        dialogueSystem = currentDialogueFrame.GetComponent<DialogueSystem>();
+    }
+    private void Start()
+    {
+        CloseDialogueFrame();
     }
 
     public void OpenDialogueFrame()
@@ -20,7 +25,7 @@ public class DialogueManager : Singleton<DialogueManager>
             Debug.LogError("Dialogue Frame is not instantiated.");
         }
 
-        currentDialogueFrame.SetActive(true);
+        dialogueSystem.DialogueIsOn(true);
     }
 
     public void CloseDialogueFrame()
@@ -30,6 +35,6 @@ public class DialogueManager : Singleton<DialogueManager>
             Debug.LogError("Dialogue Frame is not instantiated.");
         }
 
-        currentDialogueFrame.SetActive(false);
+        dialogueSystem.DialogueIsOn(false);
     }
 }
