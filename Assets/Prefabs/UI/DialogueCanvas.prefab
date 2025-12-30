@@ -67,9 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'I think i shouldn''t go there right now
 
-    Am I?
-
-    dd'
+    Am I?i shouldn''t go there
+    right now'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -258,6 +257,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueCanvasGroup: {fileID: 1739979588709500275}
+  dialogueTextArea: {fileID: 7626357038037761710}
+  typingSpeed: 0.05
 --- !u!225 &1739979588709500275
 CanvasGroup:
   m_ObjectHideFlags: 0
