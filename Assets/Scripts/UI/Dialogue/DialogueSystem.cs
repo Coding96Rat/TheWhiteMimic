@@ -6,7 +6,8 @@ public class DialogueSystem : MonoBehaviour
 {
     [SerializeField]
     private CanvasGroup dialogueCanvasGroup;
-    private float dialogueBoxAlphaChangeSpeed;
+    [SerializeField]
+    private float dialogueBoxAlphaChangeSpeed = 1.0f;
 
     [SerializeField]
     private TextMeshProUGUI dialogueTextArea;
@@ -15,11 +16,6 @@ public class DialogueSystem : MonoBehaviour
     private Coroutine typingCoroutine;
     public void DialogueIsOn(bool isOn)
     {
-        if (isOn)
-
-            dialogueCanvasGroup.alpha = 1;
-        else
-            dialogueCanvasGroup.alpha = 0;
 
         StartCoroutine(FadeInOutDialogueBox(isOn));
     }
@@ -70,4 +66,5 @@ public class DialogueSystem : MonoBehaviour
 
         typingCoroutine = null;
     }
+
 }
