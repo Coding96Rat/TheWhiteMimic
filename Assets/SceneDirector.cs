@@ -19,7 +19,10 @@ public class SceneDirector : MonoBehaviour
     private void Start()
     {
         currentSceneName = GameManager.Instance.GetCurrentSceneName();
-        DialogueManager.Instance.SetSceneDialogue();
+
+        // 로컬라이제이션 도입으로 인해 주석 처리
+        //DialogueManager.Instance.SetSceneDialogue();
+
         StartCoroutine(StartScene());
     }
 
@@ -29,6 +32,7 @@ public class SceneDirector : MonoBehaviour
         yield return StartCoroutine(FadeInOut(true));
 
         // 대사 시작
+        // 로컬라이제이션 도입으로 인해 주석 처리
         DialogueManager.Instance.NextSentence();
     }
 

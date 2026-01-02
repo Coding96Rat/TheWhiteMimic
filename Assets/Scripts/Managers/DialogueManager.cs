@@ -15,9 +15,9 @@ public class DialogueManager : Singleton<DialogueManager>
     {
         base.Awake();
         currentDialogueFrame = Instantiate(DialougeFrame, this.transform);
-        // 이건 추후에 DataManager로 옮길 수도 있음
-        fileSaverLoader = new FileSaverLoader(Application.persistentDataPath + "/Dialogues");
-        Debug.Log("Dialogue Save Path: " + Application.persistentDataPath + "/Dialogues");
+        
+        //fileSaverLoader = new FileSaverLoader(Application.persistentDataPath + "/Dialogues");
+        //Debug.Log("Dialogue Save Path: " + Application.persistentDataPath + "/Dialogues");
     }
     private void Start()
     {
@@ -27,8 +27,8 @@ public class DialogueManager : Singleton<DialogueManager>
 
     public void SetSceneDialogue()
     {
-        sceneDialogue = fileSaverLoader.Load<SceneDialogue>("StartMovieScene.json");
-        currentSentenceIndex = -1;
+        //sceneDialogue = fileSaverLoader.Load<SceneDialogue>("StartMovieScene.json");
+        //currentSentenceIndex = -1;
     }
 
 
@@ -54,27 +54,27 @@ public class DialogueManager : Singleton<DialogueManager>
 
     public void NextSentence()
     {
-        
 
-        if (currentSentenceIndex == -1)
-        {
-            OpenDialogueFrame();
-            currentSentenceIndex = 0;
-        }
-        else if (currentSentenceIndex >= sceneDialogue.dialogues.Count)
-        {
-            CloseDialogueFrame();
-            currentSentenceIndex = -1;
-            sceneDialogue = null;
-        }
-        Debug.Log("Current Sentence Index: " + currentSentenceIndex);
-        if (sceneDialogue != null)
-        {
-            dialogueSystem.TypingDialogue(sceneDialogue.dialogues[currentSentenceIndex].sentence);
-        }
-        else
-        {
-            Debug.LogError("Scene Dialogue is null.");
-        }
+        OpenDialogueFrame();
+        //if (currentSentenceIndex == -1)
+        //{
+        //    OpenDialogueFrame();
+        //    currentSentenceIndex = 0;
+        //}
+        //else if (currentSentenceIndex >= sceneDialogue.dialogues.Count)
+        //{
+        //    CloseDialogueFrame();
+        //    currentSentenceIndex = -1;
+        //    sceneDialogue = null;
+        //}
+        //Debug.Log("Current Sentence Index: " + currentSentenceIndex);
+        //if (sceneDialogue != null)
+        //{
+        //    dialogueSystem.TypingDialogue(sceneDialogue.dialogues[currentSentenceIndex].sentence);
+        //}
+        //else
+        //{
+        //    Debug.LogError("Scene Dialogue is null.");
+        //}
     }
 }
