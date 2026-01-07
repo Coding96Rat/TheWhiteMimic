@@ -7,15 +7,6 @@
             "id": "aa5b74d3-52fa-4b3d-a1ae-eb4ec2817073",
             "actions": [
                 {
-                    "name": "Inventory",
-                    "type": "Button",
-                    "id": "4e85c1b3-5eea-458b-b266-3e63ab80bc43",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "Press",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "MainMenu",
                     "type": "Button",
                     "id": "83e4fe23-d163-4cd9-a913-fcb210f16f94",
@@ -26,17 +17,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "1dce31c0-b696-4c2a-b88a-55bf92329fab",
-                    "path": "<Keyboard>/tab",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Inventory",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "3a143d00-cb5d-4f6a-847f-3ed3f083b87f",

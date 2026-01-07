@@ -52,6 +52,9 @@ public class UIManager : MonoBehaviour
 
     public void Inventory()
     {
+        if (inventoryUI == null)
+            return;
+
         // 메인메뉴가 켜져있을 땐 인벤토리 접근 불가
         if (mainMenuOn)
             return;

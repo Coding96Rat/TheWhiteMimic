@@ -30,6 +30,14 @@ public class OptionHandler : MonoBehaviour
     private Button GameplayBtn;
 
     [Space(15)]
+    [Header("Language Setting")]
+    [SerializeField]
+    private GameObject LanguagePanel;
+    [SerializeField]
+    private Button LanguageBtn;
+
+
+    [Space(15)]
     [Header("Return Setting")]
     [SerializeField]
     private Button ReturnBtn;
@@ -41,8 +49,9 @@ public class OptionHandler : MonoBehaviour
         GraphicsBtn.onClick.AddListener(() => OpenGraphicPanel(true));
         SoundBtn.onClick.AddListener(() => OpenSoundPanel(true));
         GameplayBtn.onClick.AddListener(() => OpenGamePlayPanel(true));
+        LanguageBtn.onClick.AddListener(() => OpenLanguagePanel(true));
         ReturnBtn.onClick.AddListener(Return);
-        
+
     }
 
     public void OpenGraphicPanel(bool isOn)
@@ -59,6 +68,12 @@ public class OptionHandler : MonoBehaviour
     {
         OptionFilm.SetActive(isOn);
         GameplayPanel.SetActive(isOn);
+    }
+
+    public void OpenLanguagePanel(bool isOn)
+    {
+        OptionFilm.SetActive(isOn);
+        LanguagePanel.SetActive(isOn);
     }
     public void Return()
     {

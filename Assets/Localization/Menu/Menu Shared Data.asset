@@ -31,6 +31,26 @@ MonoBehaviour:
     m_Key: Exit
     m_Metadata:
       m_Items: []
+  - m_Id: 1840224534859776
+    m_Key: AskYes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1840251869138944
+    m_Key: AskNo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1839329701072896
+    m_Key: AskAlarmStart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1842926216089600
+    m_Key: AskAlarmExit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1849784989454336
+    m_Key: LanguageIntroduce
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

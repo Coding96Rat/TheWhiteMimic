@@ -15,12 +15,6 @@ MonoBehaviour:
   m_GroupName: Localization-Asset-Tables-English (en)
   m_GUID: 779ce4d8611dbcf4586607a1df90c667
   m_SerializeEntries:
-  - m_GUID: 2b479d044a65db241992028f8e6cbaef
-    m_Address: FontTable_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 37d3892a42d4f5c45a25b522f95b5592
     m_Address: FontTable_en
     m_ReadOnly: 1

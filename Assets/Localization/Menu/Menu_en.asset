@@ -34,6 +34,26 @@ MonoBehaviour:
     m_Localized: Exit
     m_Metadata:
       m_Items: []
+  - m_Id: 1839329701072896
+    m_Localized: Do you want to start a new game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1840224534859776
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1840251869138944
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1842926216089600
+    m_Localized: Do you want to exit the game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1849784989454336
+    m_Localized: This game supports multiple languages.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
