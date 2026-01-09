@@ -13,52 +13,52 @@ MonoBehaviour:
   m_Name: Menu Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: Menu
-  m_TableCollectionNameGuidString: 6a13b6ac9c0c9dc47a6f22b7c37a9f73
+  m_TableCollectionNameGuidString: 37c327968e53fe048b9ad1c7ff7577c9
   m_Entries:
   - m_Id: 12787716096
     m_Key: Start
     m_Metadata:
       m_Items: []
-  - m_Id: 72903470419968
+  - m_Id: 1142305394688
     m_Key: Continue
     m_Metadata:
       m_Items: []
-  - m_Id: 72930557235200
+  - m_Id: 1142317977600
     m_Key: Option
     m_Metadata:
       m_Items: []
-  - m_Id: 72975415316480
+  - m_Id: 1142317977601
     m_Key: Exit
     m_Metadata:
       m_Items: []
-  - m_Id: 1840224534859776
+  - m_Id: 1142317977602
     m_Key: AskYes
     m_Metadata:
       m_Items: []
-  - m_Id: 1840251869138944
+  - m_Id: 1142317977603
     m_Key: AskNo
     m_Metadata:
       m_Items: []
-  - m_Id: 1839329701072896
+  - m_Id: 1142317977604
     m_Key: AskAlarmStart
     m_Metadata:
       m_Items: []
-  - m_Id: 1842926216089600
+  - m_Id: 1142317977605
     m_Key: AskAlarmExit
     m_Metadata:
       m_Items: []
-  - m_Id: 1849784989454336
+  - m_Id: 1142317977606
     m_Key: LanguageIntroduce
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 5657373301884322175
+    rid: 5657373466969768011
   references:
     version: 2
     RefIds:
-    - rid: 5657373301884322175
+    - rid: 5657373466969768011
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1767331271331
+        m_CustomEpoch: 1767955073253

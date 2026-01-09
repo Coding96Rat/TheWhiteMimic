@@ -23,7 +23,8 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         inventoryUI = GetComponentInChildren<InventoryUI>();
-        inventoryCanvasGroup = inventoryUI.GetComponent<CanvasGroup>();
+        if(inventoryUI != null)
+            inventoryCanvasGroup = inventoryUI.GetComponent<CanvasGroup>();
 
         if (GameObject.FindGameObjectWithTag("Player").TryGetComponent<PlayerInput>(out PlayerInput playerInput))
         {
@@ -33,6 +34,7 @@ public class UIManager : MonoBehaviour
         {
             GameObject mainMenuObject = Instantiate(MenuPrefab, this.transform);
             mainMenuHandler = mainMenuObject.GetComponentInChildren<MainMenuHandler>();
+            
         }
     }
 

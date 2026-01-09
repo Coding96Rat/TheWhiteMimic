@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: en
-  m_SharedData: {fileID: 11400000, guid: 6a13b6ac9c0c9dc47a6f22b7c37a9f73, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 37c327968e53fe048b9ad1c7ff7577c9, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
@@ -22,35 +22,35 @@ MonoBehaviour:
     m_Localized: New Game
     m_Metadata:
       m_Items: []
-  - m_Id: 72903470419968
+  - m_Id: 1142305394688
     m_Localized: Continue
     m_Metadata:
       m_Items: []
-  - m_Id: 72930557235200
+  - m_Id: 1142317977600
     m_Localized: Option
     m_Metadata:
       m_Items: []
-  - m_Id: 72975415316480
+  - m_Id: 1142317977601
     m_Localized: Exit
     m_Metadata:
       m_Items: []
-  - m_Id: 1839329701072896
-    m_Localized: Do you want to start a new game?
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1840224534859776
+  - m_Id: 1142317977602
     m_Localized: Yes
     m_Metadata:
       m_Items: []
-  - m_Id: 1840251869138944
+  - m_Id: 1142317977603
     m_Localized: No
     m_Metadata:
       m_Items: []
-  - m_Id: 1842926216089600
+  - m_Id: 1142317977604
+    m_Localized: Do you want to start a new game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1142317977605
     m_Localized: Do you want to exit the game?
     m_Metadata:
       m_Items: []
-  - m_Id: 1849784989454336
+  - m_Id: 1142317977606
     m_Localized: This game supports multiple languages.
     m_Metadata:
       m_Items: []

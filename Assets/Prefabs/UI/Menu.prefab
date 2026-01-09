@@ -2561,9 +2561,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 1849784989454336
+      m_KeyId: 1142317977606
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -6307,9 +6307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 1840224534859776
+      m_KeyId: 1142317977602
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -6906,9 +6906,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 1840224534859776
+      m_KeyId: 1142317977602
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -8994,6 +8994,12 @@ MonoBehaviour:
     - m_Text: Korean
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Chinese
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: German
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9480,9 +9486,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 72903470419968
+      m_KeyId: 1142305394688
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -11586,7 +11592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
       m_KeyId: 12787716096
       m_Key: 
@@ -12239,9 +12245,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 1840251869138944
+      m_KeyId: 1142317977603
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -13839,9 +13845,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 1840251869138944
+      m_KeyId: 1142317977603
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -14132,7 +14138,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6488044022218062299}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -15203,9 +15209,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 1842926216089600
+      m_KeyId: 1142317977605
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -15701,9 +15707,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 1839329701072896
+      m_KeyId: 1142317977604
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -16574,7 +16580,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mole's Meat Market
+  m_text: My Subway
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19314,9 +19320,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 72930557235200
+      m_KeyId: 1142317977600
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -20405,9 +20411,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:6a13b6ac9c0c9dc47a6f22b7c37a9f73
+      m_TableCollectionName: GUID:37c327968e53fe048b9ad1c7ff7577c9
     m_TableEntryReference:
-      m_KeyId: 72975415316480
+      m_KeyId: 1142317977601
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0

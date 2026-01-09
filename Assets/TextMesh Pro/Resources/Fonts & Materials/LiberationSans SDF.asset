@@ -7975,6 +7975,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9adadc249619a0242be437898c12ad6a, type: 2}
   - {fileID: 11400000, guid: fd69393b390091d4eafd1f3acce5352f, type: 2}
   - {fileID: 11400000, guid: c58c56b02dea2f349baeb8380066fcd5, type: 2}
+  - {fileID: 11400000, guid: 0635ad16b260bf9488fb4e56bae7eb8a, type: 2}
   m_FontWeightTable:
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
