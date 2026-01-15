@@ -44,9 +44,13 @@ public class LanguageOption : MonoBehaviour
 
         switch (currentCode)
         {
-            case "en": languageDropdown.value = 0; break;
-            case "ja": languageDropdown.value = 1; break;
-            case "ko": languageDropdown.value = 2; break;
+            case "zh-Hans": languageDropdown.value = 0; break;
+            case "zh-TW": languageDropdown.value = 1; break;
+            case "en": languageDropdown.value = 2; break;
+            case "de": languageDropdown.value = 3; break;
+            case "ja": languageDropdown.value = 4; break;
+            case "ko": languageDropdown.value = 5; break;
+            case "ru": languageDropdown.value = 6; break;
         }
 
         isChanging = false;

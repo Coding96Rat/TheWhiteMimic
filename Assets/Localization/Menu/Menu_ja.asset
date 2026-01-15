@@ -51,7 +51,103 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1142317977606
-    m_Localized: "\u3053\u306E\u30B2\u30FC\u30E0\u306F\u8907\u6570\u306E\u8A00\u8A9E\u3092\u30B5\u30DD\u30FC\u30C8\u3057\u3066\u3044\u307E\u3059."
+    m_Localized: "\u3053\u306E\u30B2\u30FC\u30E0\u306F\u8907\u6570\u306E\u8A00\u8A9E\u3092\u30B5\u30DD\u30FC\u30C8\u3057\u3066\u3044\u307E\u3059"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30607588790272
+    m_Localized: "\u30EA\u30BB\u30C3\u30C8"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30651641565184
+    m_Localized: "\u623B\u308B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30681068802048
+    m_Localized: "\u9069\u7528"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178071624224768
+    m_Localized: "\u30B0\u30E9\u30D5\u30A3\u30C3\u30AF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178075340378112
+    m_Localized: "\u30B5\u30A6\u30F3\u30C9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178077215232000
+    m_Localized: "\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178078863593472
+    m_Localized: "\u8A00\u8A9E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184002458161152
+    m_Localized: "\u8A00\u8A9E\u8A2D\u5B9A"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184841537064960
+    m_Localized: "\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4\u8A2D\u5B9A"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184896906072064
+    m_Localized: "\u30B5\u30A6\u30F3\u30C9\u8A2D\u5B9A"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184923179192320
+    m_Localized: "\u30B0\u30E9\u30D5\u30A3\u30C3\u30AF\u8A2D\u5B9A"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185230340657152
+    m_Localized: "\u30DE\u30A6\u30B9\u611F\u5EA6"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185256412450816
+    m_Localized: "Y\u8EF8\u53CD\u8EE2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185271616802816
+    m_Localized: "\u30AB\u30E1\u30E9\u306E\u63FA\u308C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185290877046784
+    m_Localized: FOV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185306341445632
+    m_Localized: "\u64CD\u4F5C >>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185318899191808
+    m_Localized: "\u30DE\u30B9\u30BF\u30FC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185330404167680
+    m_Localized: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185350507466752
+    m_Localized: "\u52B9\u679C\u97F3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185365976059904
+    m_Localized: "\u30DC\u30A4\u30B9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191290170413056
+    m_Localized: "\u660E\u308B\u3055"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191330708361216
+    m_Localized: "\u30D5\u30EB\u30B9\u30AF\u30EA\u30FC\u30F3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191335368232960
+    m_Localized: "\u89E3\u50CF\u5EA6"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191337146617856
+    m_Localized: "\u30AF\u30AA\u30EA\u30C6\u30A3"
     m_Metadata:
       m_Items: []
   references:

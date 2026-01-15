@@ -1303,6 +1303,10 @@ PrefabInstance:
       propertyPath: globalVolume
       value: 
       objectReference: {fileID: 396277158}
+    - target: {fileID: 9118356770691319316, guid: bb68f357131ba7148a91f4f3e787191e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 333.16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

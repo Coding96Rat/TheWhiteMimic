@@ -54,6 +54,102 @@ MonoBehaviour:
     m_Localized: This game supports multiple languages.
     m_Metadata:
       m_Items: []
+  - m_Id: 30607588790272
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30651641565184
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30681068802048
+    m_Localized: Apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178071624224768
+    m_Localized: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178075340378112
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178077215232000
+    m_Localized: GamePlay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178078863593472
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184002458161152
+    m_Localized: Language Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184841537064960
+    m_Localized: GamePlay Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184896906072064
+    m_Localized: Sound Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184923179192320
+    m_Localized: Graphic Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185230340657152
+    m_Localized: Mouse Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185256412450816
+    m_Localized: Invert Y
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185271616802816
+    m_Localized: HeadBob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185290877046784
+    m_Localized: FOV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185306341445632
+    m_Localized: Controls >>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185318899191808
+    m_Localized: Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185330404167680
+    m_Localized: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185350507466752
+    m_Localized: Effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185365976059904
+    m_Localized: Voice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191290170413056
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191330708361216
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191335368232960
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191337146617856
+    m_Localized: Quality
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -47,8 +47,104 @@ MonoBehaviour:
     m_Key: AskAlarmExit
     m_Metadata:
       m_Items: []
+  - m_Id: 30607588790272
+    m_Key: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30651641565184
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30681068802048
+    m_Key: Apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178071624224768
+    m_Key: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178075340378112
+    m_Key: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178077215232000
+    m_Key: GamePlay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184002458161152
+    m_Key: LanguageSetting
+    m_Metadata:
+      m_Items: []
   - m_Id: 1142317977606
     m_Key: LanguageIntroduce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184923179192320
+    m_Key: GraphicSetting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184896906072064
+    m_Key: SoundSetting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2184841537064960
+    m_Key: GamePlaySetting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178078863593472
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185230340657152
+    m_Key: MouseSensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185256412450816
+    m_Key: InvertY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185271616802816
+    m_Key: HeadBob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185290877046784
+    m_Key: FOV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185306341445632
+    m_Key: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185318899191808
+    m_Key: Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185330404167680
+    m_Key: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185350507466752
+    m_Key: Effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2185365976059904
+    m_Key: Voice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191290170413056
+    m_Key: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191330708361216
+    m_Key: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191335368232960
+    m_Key: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191337146617856
+    m_Key: Quality
     m_Metadata:
       m_Items: []
   m_Metadata:

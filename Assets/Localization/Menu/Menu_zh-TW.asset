@@ -10,108 +10,104 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Menu_de
+  m_Name: Menu_zh-TW
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: de
+    m_Code: zh-TW
   m_SharedData: {fileID: 11400000, guid: 37c327968e53fe048b9ad1c7ff7577c9, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
   - m_Id: 12787716096
-    m_Localized: Neues Spiel
+    m_Localized: "\u65B0\u904A\u6232"
     m_Metadata:
       m_Items: []
   - m_Id: 1142305394688
-    m_Localized: Fortsetzen
+    m_Localized: "\u7E7C\u7E8C"
     m_Metadata:
       m_Items: []
   - m_Id: 1142317977600
-    m_Localized: Optionen
+    m_Localized: "\u9078\u9805"
     m_Metadata:
       m_Items: []
   - m_Id: 1142317977601
-    m_Localized: Beenden
+    m_Localized: "\u96E2\u958B"
     m_Metadata:
       m_Items: []
   - m_Id: 1142317977602
-    m_Localized: Ja
+    m_Localized: "\u662F"
     m_Metadata:
       m_Items: []
   - m_Id: 1142317977603
-    m_Localized: Nein
+    m_Localized: "\u5426"
     m_Metadata:
       m_Items: []
   - m_Id: 1142317977604
-    m_Localized: "M\xF6chten Sie ein neues Spiel starten?"
+    m_Localized: "\u662F\u5426\u958B\u59CB\u65B0\u904A\u6232?"
     m_Metadata:
       m_Items: []
   - m_Id: 1142317977605
-    m_Localized: "M\xF6chten Sie das Spiel beenden?"
+    m_Localized: "\u662F\u5426\u8981\u96E2\u958B\u904A\u6232?"
     m_Metadata:
       m_Items: []
   - m_Id: 1142317977606
-    m_Localized: "Dieses Spiel unterst\xFCtzt mehrere Sprachen."
+    m_Localized: "\u672C\u904A\u6232\u652F\u63F4\u591A\u7A2E\u8A9E\u8A00"
     m_Metadata:
       m_Items: []
   - m_Id: 30607588790272
-    m_Localized: "Zur\xFCcksetzen"
+    m_Localized: "\u91CD\u8A2D"
     m_Metadata:
       m_Items: []
   - m_Id: 30651641565184
-    m_Localized: "Zur\xFCck"
+    m_Localized: "\u8FD4\u56DE"
     m_Metadata:
       m_Items: []
   - m_Id: 30681068802048
-    m_Localized: "\xDCbernehmen"
+    m_Localized: "\u5957\u7528"
     m_Metadata:
       m_Items: []
   - m_Id: 2178071624224768
-    m_Localized: Grafik
+    m_Localized: "\u5716\u50CF"
     m_Metadata:
       m_Items: []
   - m_Id: 2178075340378112
-    m_Localized: Audio
+    m_Localized: "\u8072\u97F3"
     m_Metadata:
       m_Items: []
   - m_Id: 2178077215232000
-    m_Localized: GamePlay
+    m_Localized: "\u904A\u6232"
     m_Metadata:
       m_Items: []
   - m_Id: 2178078863593472
-    m_Localized: Sprache
+    m_Localized: "\u8A9E\u8A00"
     m_Metadata:
       m_Items: []
   - m_Id: 2184002458161152
-    m_Localized: Spracheinstellungen
+    m_Localized: "\u8A9E\u8A00\u8A2D\u5B9A"
     m_Metadata:
       m_Items: []
   - m_Id: 2184841537064960
-    m_Localized: Gameplay-Einstellungen
+    m_Localized: "\u904A\u6232\u8A2D\u5B9A"
     m_Metadata:
       m_Items: []
   - m_Id: 2184896906072064
-    m_Localized: Audio-Einstellungen
+    m_Localized: "\u8072\u97F3\u8A2D\u5B9A"
     m_Metadata:
       m_Items: []
   - m_Id: 2184923179192320
-    m_Localized: Grafikeinstellungen
+    m_Localized: "\u5716\u50CF\u8A2D\u5B9A"
     m_Metadata:
       m_Items: []
   - m_Id: 2185230340657152
-    m_Localized: 'Maus-
-
-      Empfindlichkeit'
+    m_Localized: "\u6ED1\u9F20\u9748\u654F\u5EA6"
     m_Metadata:
       m_Items: []
   - m_Id: 2185256412450816
-    m_Localized: 'Y-Achse
-
-      umkehren'
+    m_Localized: "Y\u8EF8\u53CD\u8F49"
     m_Metadata:
       m_Items: []
   - m_Id: 2185271616802816
-    m_Localized: Kopfwackeln
+    m_Localized: "\u93E1\u982D\u6643\u52D5"
     m_Metadata:
       m_Items: []
   - m_Id: 2185290877046784
@@ -119,39 +115,39 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2185306341445632
-    m_Localized: Steuerung >>
+    m_Localized: "\u64CD\u4F5C >>"
     m_Metadata:
       m_Items: []
   - m_Id: 2185318899191808
-    m_Localized: Gesamt
+    m_Localized: "\u4E3B\u97F3\u91CF"
     m_Metadata:
       m_Items: []
   - m_Id: 2185330404167680
-    m_Localized: Musik
+    m_Localized: "\u80CC\u666F\u97F3"
     m_Metadata:
       m_Items: []
   - m_Id: 2185350507466752
-    m_Localized: Effekte
+    m_Localized: "\u97F3\u6548"
     m_Metadata:
       m_Items: []
   - m_Id: 2185365976059904
-    m_Localized: Stimmen
+    m_Localized: "\u8A9E\u97F3"
     m_Metadata:
       m_Items: []
   - m_Id: 2191290170413056
-    m_Localized: Helligkeit
+    m_Localized: "\u4EAE\u5EA6"
     m_Metadata:
       m_Items: []
   - m_Id: 2191330708361216
-    m_Localized: Vollbild
+    m_Localized: "\u5168\u87A2\u5E55"
     m_Metadata:
       m_Items: []
   - m_Id: 2191335368232960
-    m_Localized: "Aufl\xF6sung"
+    m_Localized: "\u89E3\u6790\u5EA6"
     m_Metadata:
       m_Items: []
   - m_Id: 2191337146617856
-    m_Localized: "Qualit\xE4t"
+    m_Localized: "\u756B\u8CEA"
     m_Metadata:
       m_Items: []
   references:
