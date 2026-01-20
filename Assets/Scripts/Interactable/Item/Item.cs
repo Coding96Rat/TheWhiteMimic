@@ -51,14 +51,11 @@ public class Item : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        if (!canInteractWithPlayer)
-        {
-            return;
-        }
 
         if (inventoryHandler != null)
         {
             inventoryHandler.PlayerPickItem(this);
+            Debug.Log("Pick Item");
         }
         else
         {
@@ -66,15 +63,37 @@ public class Item : MonoBehaviour, IInteractable
         }
     }
 
-    public void Detected(bool isOn)
+    //public void Detected(bool isOn)
+    //{
+    //    if (canInteractWithPlayer == isOn)
+    //        return;
+    //    interactUI.ActivateUI(isOn);
+
+    //    canInteractWithPlayer = isOn;
+
+    //}
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (canInteractWithPlayer == isOn)
-            return;
-        interactUI.ActivateUI(isOn);
-
-        canInteractWithPlayer = isOn;
-
+        if (other.CompareTag("Player"))
+        {
+            if(other.TryGetComponent<Interactor>(out Interactor interactor))
+            {
+                interactor.CanInteract(this);
+            }
+        }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (other.TryGetComponent<Interactor>(out Interactor interactor))
+            {
+                interactor.CanInteract(null);
+            }
+        }
+    }
+
 
     //public void Use()
     //{

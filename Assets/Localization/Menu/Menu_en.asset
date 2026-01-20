@@ -99,7 +99,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2185230340657152
-    m_Localized: Mouse Sensitivity
+    m_Localized: 'Mouse
+
+      Sensitivity'
     m_Metadata:
       m_Items: []
   - m_Id: 2185256412450816

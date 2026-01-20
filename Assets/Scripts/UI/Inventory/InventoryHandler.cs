@@ -92,8 +92,9 @@ public class InventoryHandler : MonoBehaviour
 
         // Update UI Item information
         // And then try update ui slot in this method
-        if(inventoryUI != null)
-        inventoryUI.UpdateItemSlotList();
+
+        //if(inventoryUI != null)
+        //    inventoryUI.UpdateItemSlotList();
     }
 
     //public void PlayerUseItem(int id)

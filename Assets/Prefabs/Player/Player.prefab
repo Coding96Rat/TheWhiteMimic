@@ -652,12 +652,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FollowCam: {fileID: 1705333574467371246}
-  camWalkOffset: {x: 1, y: 1.48, z: 0.43}
-  camSprintOffset: {x: 0.31, y: 1.48, z: 0.75}
-  camCrouchOffset: {x: 0, y: 0, z: 0}
-  crouchSpeed: 0
   moveSpeed: 2
   sprintSpeed: 6
+  rotationSmoothTime: 0.1
   sensitivityAmount: 0
   pitchLimit: 85
   gravity: -10.81
@@ -1263,7 +1260,7 @@ Transform:
   m_GameObject: {fileID: 3626114452795152762}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000008940697, y: -5.6843415e-14, z: -6.2172472e-15, w: 1}
-  m_LocalPosition: {x: 0, y: 1.48, z: 0.277}
+  m_LocalPosition: {x: 0, y: 1.727, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
